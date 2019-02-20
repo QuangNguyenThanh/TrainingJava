@@ -1,0 +1,11 @@
+Bài 1. Trong một ứng dụng có quản lý bất động sản của công ty ABC có 4 đối tượng là: đất
+trống, nhà ở, biệt thự và khách sạn. Biết rằng tất cả các đối tượng này đều có các thông tin sau:
+mã số, chiều dài, chiều rộng và phương thức tính giá trị. Biết rằng giá trị được tính như sau
+- Đất trống: giá bán = diện tích * 10.000
+- Nhà ở có thêm thông tin số lầu: giá bán = diện tích *10.000+ số lầu * 100.000
+- Khách sạn có thêm thông tin về số sao : giá bán = 100.000 + số sao*50.000
+- Biệt thự: giá bán = diện tích *400.000
+Tuy nhiên trong 4 loại bất động sản trên thì có 2 loại sản phẩm khi mua khách hàng phải đóng
+thêm phí kinh doanh là biệt thự và khách sạn. Biết rằng phí kinh doanh sẽ được tính như sau:
+- Biệt thự: Diện tích *1000
+- Khách sạn: Chiều rộng * 5000
