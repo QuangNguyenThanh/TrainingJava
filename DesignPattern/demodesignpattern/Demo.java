@@ -1,5 +1,7 @@
 package demodesignpattern;
 
+import java.io.DataInput;
+import java.io.DataInputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -29,7 +31,7 @@ public class Demo {
 		lst.add(bds2);
 		lst.add(bds3);
 		lst.add(bds4);
-		
+
 		Iterator<BatDongSan> itr = lst.iterator();
 		while(itr.hasNext()) {
 			BatDongSan t = (BatDongSan) itr.next();

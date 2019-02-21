@@ -4,7 +4,7 @@ import java.io.File;
 
 public class DemoGetAllFile {
 	public static void main(String[] args) {
-		File f = new File("E://");
+		File f = new File("C://");
 		getFileDirectory(f);
 	}
 	
